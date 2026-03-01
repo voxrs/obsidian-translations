@@ -56,7 +56,7 @@
             "type": "AssignmentExpression",
             "name": "innerHTML",
             "source": "\n                    The time-zone in which the authoring date should be shown.\n                    Either your local time-zone (default),\n                    the author's time-zone during commit creation or\n                    <a href=\"https://en.wikipedia.org/wiki/UTC%C2%B100:00\">UTC\\xB100:00</a>.\n            ",
-            "target": "\n                    The time-zone in which the authoring date should be shown.\n                    Either your local time-zone (default),\n                    the author's time-zone during commit creation or\n                    <a href=\"https://en.wikipedia.org/wiki/UTC%C2%B100:00\">UTC\\xB100:00</a>.\n            "
+            "target": "\n                    The time-zone in which the authoring date should be shown.\n                    Either your local 的撒time-zone (default),\n                    the author's time-zone during commit creation or\n                    UTC\\xB100:00.\n            "
         },
         {
             "type": "AssignmentExpression",
