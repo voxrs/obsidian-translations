@@ -34,5 +34,17 @@
         "hash": "09ae28f809ae28f809ae28f809ae28f8",
         "created_at": "2026-03-04T04:50:33.212Z",
         "updated_at": "2026-03-04T04:50:33.212Z"
+    },
+    {
+        "id": "O3JolOmhjzpHqEsjnY0P7RNH4hN6sYmP",
+        "plugin": "obsidian-icon-folder",
+        "language": "zh-cn",
+        "version": "2.14.7",
+        "supported_versions": "2.14.7",
+        "title": "Iconize",
+        "description": "Iconize Localization & Tweaks",
+        "hash": "09b4d86309b4d86309b4d86309b4d863",
+        "created_at": "2026-03-04T07:20:36.252Z",
+        "updated_at": "2026-03-04T07:20:36.252Z"
     }
 ]
