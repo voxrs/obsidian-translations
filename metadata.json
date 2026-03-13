@@ -13,19 +13,6 @@
     "updated_at": "2026-03-13T14:06:06.744Z"
   },
   {
-    "id": "OZ2hqzs8x8Itss8nnKYQI42scsE93OUh",
-    "plugin": "excalibrain",
-    "type": "plugin",
-    "language": "zh-cn",
-    "version": "1.0.0",
-    "supported_versions": "0.2.15",
-    "title": "ExcaliBrain",
-    "description": "ExcaliBrain Localization & Tweaks",
-    "hash": "4716ad9c4716ad9c4716ad9c4716ad9c",
-    "created_at": "2026-03-13T14:06:13.110Z",
-    "updated_at": "2026-03-13T14:06:13.110Z"
-  },
-  {
     "id": "OLbd0KAFQ-7xHBSEPmj-JKfwA3yhpquQ",
     "plugin": "Minimal",
     "type": "theme",
