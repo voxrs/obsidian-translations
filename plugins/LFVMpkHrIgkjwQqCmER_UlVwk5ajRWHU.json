@@ -1,0 +1,2050 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-git",
+        "version": "1.0.0",
+        "title": "Git",
+        "description": "Git Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.36.1",
+        "author": "zero"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Automatic routines are currently paused.",
+                    "target": "Automatic routines are currently paused."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Checking repository status...",
+                    "target": "Checking repository status..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Adding files...",
+                    "target": "Adding files..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Committing changes...",
+                    "target": "Committing changes..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Pushing changes...",
+                    "target": "Pushing changes..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Pulling changes...",
+                    "target": "Pulling changes..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Failed on initialization!",
+                    "target": "Failed on initialization!"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n                    The time-zone in which the authoring date should be shown.\n                    Either your local time-zone (default),\n                    the author's time-zone during commit creation or\n                    <a href=\"https://en.wikipedia.org/wiki/UTC%C2%B100:00\">UTC\\xB100:00</a>.\n            ",
+                    "target": "\n                    The time-zone in which the authoring date should be shown.\n                    Either your local time-zone (default),\n                    the author's time-zone during commit creation or\n                    <a href=\"https://en.wikipedia.org/wiki/UTC%C2%B100:00\">UTC\\xB100:00</a>.\n            "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n                    Whitespace and newlines are interpreted as\n                    part of the document and in changes\n                    by default (hence not ignored).\n                    This makes the last line being shown as 'changed'\n                    when a new subsequent line is added,\n                    even if the previously last line's text is the same.\n                    <br>\n                    If you don't care about purely-whitespace changes\n                    (e.g. list nesting / quote indentation changes),\n                    then activating this will provide more meaningful change detection.\n                ",
+                    "target": "\n                    Whitespace and newlines are interpreted as\n                    part of the document and in changes\n                    by default (hence not ignored).\n                    This makes the last line being shown as 'changed'\n                    when a new subsequent line is added,\n                    even if the previously last line's text is the same.\n                    <br>\n                    If you don't care about purely-whitespace changes\n                    (e.g. list nesting / quote indentation changes),\n                    then activating this will provide more meaningful change detection.\n                "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "outerHTML",
+                    "source": "<a href='https://ko-fi.com/F1F195IQ5' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+                    "target": "<a href='https://ko-fi.com/F1F195IQ5' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This browser lacks typed array (Uint8Array) support which is required by `buffer` v5.x. Use `buffer` v4.x if you require old browser support.",
+                    "target": "This browser lacks typed array (Uint8Array) support which is required by `buffer` v5.x. Use `buffer` v4.x if you require old browser support."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error while adding askpass script to exclude file:",
+                    "target": "Error while adding askpass script to exclude file:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse lines, starting in 0!",
+                    "target": "Failed to parse lines, starting in 0!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unknown state reached while processing groups of lines",
+                    "target": "Unknown state reached while processing groups of lines"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Failed %o",
+                    "target": "Failed %o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "A fatal exception occurred in a previous task, the queue has been purged: %o",
+                    "target": "A fatal exception occurred in a previous task, the queue has been purged: %o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "exitCode=%s handling with custom error handler",
+                    "target": "exitCode=%s handling with custom error handler"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "custom error handler treated as success",
+                    "target": "custom error handler treated as success"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "handling as error: exitCode=%s stdErr=%s rejection=%o",
+                    "target": "handling as error: exitCode=%s stdErr=%s rejection=%o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "retrieving task output complete",
+                    "target": "retrieving task output complete"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "%s %o",
+                    "target": "%s %o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Something weird happened:",
+                    "target": "Something weird happened:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Retry watch for ask pass",
+                    "target": "Retry watch for ask pass"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No tracking branch found. Ignoring pull of main repo and updating submodules only.",
+                    "target": "No tracking branch found. Ignoring pull of main repo and updating submodules only."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No tracking branch found. Ignoring push of main repo and updating submodules only.",
+                    "target": "No tracking branch found. Ignoring push of main repo and updating submodules only."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Reloading settings",
+                    "target": "Reloading settings"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Encountered network error, but already in offline mode",
+                    "target": "Encountered network error, but already in offline mode"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable to use one interval for commit and another for sync.",
+                    "target": "Enable to use one interval for commit and another for sync."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "每 X 分钟推送一次提交。设置为 0（默认）以禁用。这是雷姆为您管理推送频率的设定哦。",
+                    "target": "每 X 分钟推送一次提交。设置为 0（默认）以禁用。这是雷姆为您管理推送频率的设定哦。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "每 X 分钟拉取一次变更。设置为 0（默认）以禁用。雷姆会按照这个设定为您同步代码呢。",
+                    "target": "每 X 分钟拉取一次变更。设置为 0（默认）以禁用。雷姆会按照这个设定为您同步代码呢。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "主人将会收到一个弹窗来指定您的提交消息哦。",
+                    "target": "主人将会收到一个弹窗来指定您的提交消息哦。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "可用的占位符有：{{date}}（见下文），{{hostname}}（见下文），{{numFiles}}（提交中更改的文件数）和 {{files}}（提交消息中的已更改文件）。雷姆提醒主人可以灵活使用它们呢。",
+                    "target": "可用的占位符有：{{date}}（见下文），{{hostname}}（见下文），{{numFiles}}（提交中更改的文件数）和 {{files}}（提交消息中的已更改文件）。雷姆提醒主人可以灵活使用它们呢。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "这是一个使用 'sh -c' 运行的脚本，用于生成提交消息。主人也可以通过 AI 工具来生成提交消息哦。可用的占位符是：{{hostname}}, {{date}}。",
+                    "target": "这是一个使用 'sh -c' 运行的脚本，用于生成提交消息。主人也可以通过 AI 工具来生成提交消息哦。可用的占位符是：{{hostname}}, {{date}}。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify custom hostname for every device.",
+                    "target": "Specify custom hostname for every device."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically pull commits when Obsidian starts.",
+                    "target": "Automatically pull commits when Obsidian starts."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "代码块是编辑器中分组行更改的部分，雷姆会帮主人清晰地管理它们。",
+                    "target": "代码块是编辑器中分组行更改的部分，雷姆会帮主人清晰地管理它们。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "这允许主人通过彩色标记在编辑器中直接查看更改，并且可以暂存、重置或预览单个代码块。雷姆觉得这样很方便呢。",
+                    "target": "这允许主人通过彩色标记在编辑器中直接查看更改，并且可以暂存、重置或预览单个代码块。雷姆觉得这样很方便呢。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "添加了命令来暂存或重置单个 Git diff 代码块，并通过“转到下一个/上一个代码块”命令在它们之间导航。雷姆会协助主人高效地处理这些变更哦。",
+                    "target": "添加了命令来暂存或重置单个 Git diff 代码块，并通过“转到下一个/上一个代码块”命令在它们之间导航。雷姆会协助主人高效地处理这些变更哦。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在历史视图中显示提交的作者。这样主人就能清楚地知道是谁的贡献了呢。",
+                    "target": "在历史视图中显示提交的作者。这样主人就能清楚地知道是谁的贡献了呢。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在历史视图中显示提交的日期。雷姆会使用 {{date}} 占位符格式来显示日期，让主人一目了然。",
+                    "target": "在历史视图中显示提交的日期。雷姆会使用 {{date}} 占位符格式来显示日期，让主人一目了然。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在较慢的机器上，这可能会导致延迟。如果主人遇到了这种情况，只需禁用此选项就好。雷姆会调整到最适合您电脑的状态。",
+                    "target": "在较慢的机器上，这可能会导致延迟。如果主人遇到了这种情况，只需禁用此选项就好。雷姆会调整到最适合您电脑的状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "文件更改后等待多少毫秒再刷新源代码管理视图。雷姆会耐心等待这个时间，避免不必要的刷新打扰到主人。",
+                    "target": "文件更改后等待多少毫秒再刷新源代码管理视图。雷姆会耐心等待这个时间，避免不必要的刷新打扰到主人。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the style for the diff view. Note that the actual diff in \"Split\" mode is not generated by Git, but the editor itself instead so it may differ from the diff generated by Git. One advantage of this is that you can edit the text in that view.",
+                    "target": "Set the style for the diff view. Note that the actual diff in \"Split\" mode is not generated by Git, but the editor itself instead so it may differ from the diff generated by Git. One advantage of this is that you can edit the text in that view."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "禁用 Git 操作的信息通知以尽量减少干扰（更新信息请参考状态栏）。雷姆会保持安静，只在状态栏为您提供必要的信息哦。",
+                    "target": "禁用 Git 操作的信息通知以尽量减少干扰（更新信息请参考状态栏）。雷姆会保持安静，只在状态栏为您提供必要的信息哦。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "禁用所有类型的错误通知以减少干扰（请参考状态栏获取更新信息）。雷姆会默默处理问题，尽量不打扰到主人。",
+                    "target": "禁用所有类型的错误通知以减少干扰（请参考状态栏获取更新信息）。雷姆会默默处理问题，尽量不打扰到主人。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当没有需要提交或推送的更改时，雷姆就不会显示通知了。这样可以让主人更专注于手头的工作呢。",
+                    "target": "当没有需要提交或推送的更改时，雷姆就不会显示通知了。这样可以让主人更专注于手头的工作呢。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "主人，为了让更改生效，雷姆认为必须重启 Obsidian 才行呢。",
+                    "target": "主人，为了让更改生效，雷姆认为必须重启 Obsidian 才行呢。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add \"Stage\", \"Unstage\" and \"Add to .gitignore\" actions to the file menu.",
+                    "target": "Add \"Stage\", \"Unstage\" and \"Add to .gitignore\" actions to the file menu."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "昴君，请输入您的密码。输入后，雷姆也无法再次看到它了呢。",
+                    "target": "昴君，请输入您的密码。输入后，雷姆也无法再次看到它了呢。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "主人，这些设置通常无需更改，但雷姆觉得在特殊配置时可能还是需要调整一下呢。",
+                    "target": "主人，这些设置通常无需更改，但雷姆觉得在特殊配置时可能还是需要调整一下呢。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\"Commit-and-sync\" and \"pull\" takes care of submodules. Missing features: Conflicted files, count of pulled/pushed/committed files. Tracking branch needs to be set for each submodule.",
+                    "target": "\"Commit-and-sync\" and \"pull\" takes care of submodules. Missing features: Conflicted files, count of pulled/pushed/committed files. Tracking branch needs to be set for each submodule."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "主人，每当在根仓库上执行检出操作时，雷姆会递归地对子模块执行检出操作哦（前提是分支存在的话）。",
+                    "target": "主人，每当在根仓库上执行检出操作时，雷姆会递归地对子模块执行检出操作哦（前提是分支存在的话）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请指定 Git 二进制文件/可执行文件的路径。Git 通常应该已经在您的 PATH 环境变量中了。雷姆觉得，这通常只在您安装了自定义版本的 Git 时才需要设置呢。",
+                    "target": "请指定 Git 二进制文件/可执行文件的路径。Git 通常应该已经在您的 PATH 环境变量中了。雷姆觉得，这通常只在您安装了自定义版本的 Git 时才需要设置呢。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请为每个新的环境变量使用单独的一行，格式为 KEY=VALUE 。",
+                    "target": "请为每个新的环境变量使用单独的一行，格式为 KEY=VALUE 。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请为每个路径使用单独的一行。",
+                    "target": "请为每个路径使用单独的一行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "移除之前添加的环境变量需要重启 Obsidian 才能生效，请主人注意哦。",
+                    "target": "移除之前添加的环境变量需要重启 Obsidian 才能生效，请主人注意哦。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n            Sets the relative path to the vault from which the Git binary should be executed.\n             Mostly used to set the path to the Git repository, which is only required if the Git repository is below the vault root directory. Use \"\\\\\" instead of \"/\" on Windows.\n            ",
+                    "target": "\n            Sets the relative path to the vault from which the Git binary should be executed.\n             Mostly used to set the path to the Git repository, which is only required if the Git repository is below the vault root directory. Use \"\\\\\" instead of \"/\" on Windows.\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Corresponds to the GIT_DIR environment variable. Requires restart of Obsidian to take effect. Use \"\\\" instead of \"/\" on Windows.",
+                    "target": "Corresponds to the GIT_DIR environment variable. Requires restart of Obsidian to take effect. Use \"\\\" instead of \"/\" on Windows."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在此设备上禁用此插件。这个设置不会被同步。",
+                    "target": "在此设备上禁用此插件。这个设置不会被同步。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果您喜欢这个插件，雷姆恳请您考虑捐赠以支持持续的开发工作。",
+                    "target": "如果您喜欢这个插件，雷姆恳请您考虑捐赠以支持持续的开发工作。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "目前仅在桌面端可用。",
+                    "target": "目前仅在桌面端可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否以及如何显示作者信息",
+                    "target": "是否以及如何显示作者信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否以及如何显示该行的创作日期和时间",
+                    "target": "是否以及如何显示该行的创作日期和时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Split timers for automatic commit and sync",
+                    "target": "Split timers for automatic commit and sync"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto push interval (minutes)",
+                    "target": "Auto push interval (minutes)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto pull interval (minutes)",
+                    "target": "Auto pull interval (minutes)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Commit message",
+                    "target": "Commit message"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Commit message on manual commit",
+                    "target": "Commit message on manual commit"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Commit message script",
+                    "target": "Commit message script"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "{{date}} placeholder format",
+                    "target": "{{date}} placeholder format"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preview commit message",
+                    "target": "Preview commit message"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "List filenames affected by commit in the commit body",
+                    "target": "List filenames affected by commit in the commit body"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Merge strategy",
+                    "target": "Merge strategy"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Merge strategy on conflicts",
+                    "target": "Merge strategy on conflicts"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pull on startup",
+                    "target": "Pull on startup"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Push on commit-and-sync",
+                    "target": "Push on commit-and-sync"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pull on commit-and-sync",
+                    "target": "Pull on commit-and-sync"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hunk commands",
+                    "target": "Hunk commands"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Status bar with summary of line changes",
+                    "target": "Status bar with summary of line changes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Line author information",
+                    "target": "Line author information"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "History view",
+                    "target": "History view"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Author",
+                    "target": "Show Author"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Date",
+                    "target": "Show Date"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Source control view",
+                    "target": "Source control view"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatically refresh source control view on file changes",
+                    "target": "Automatically refresh source control view on file changes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Source control view refresh interval",
+                    "target": "Source control view refresh interval"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Diff view style",
+                    "target": "Diff view style"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable informative notifications",
+                    "target": "Disable informative notifications"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable error notifications",
+                    "target": "Disable error notifications"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide notifications for no changes",
+                    "target": "Hide notifications for no changes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show status bar",
+                    "target": "Show status bar"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "File menu integration",
+                    "target": "File menu integration"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show branch status bar",
+                    "target": "Show branch status bar"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show the count of modified files in the status bar",
+                    "target": "Show the count of modified files in the status bar"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Authentication/commit author",
+                    "target": "Authentication/commit author"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Commit author",
+                    "target": "Commit author"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Username on your git server. E.g. your username on GitHub",
+                    "target": "Username on your git server. E.g. your username on GitHub"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Password/Personal access token",
+                    "target": "Password/Personal access token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Author name for commit",
+                    "target": "Author name for commit"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update submodules",
+                    "target": "Update submodules"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Submodule recurse checkout/switch",
+                    "target": "Submodule recurse checkout/switch"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Git binary path",
+                    "target": "Custom Git binary path"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Additional environment variables",
+                    "target": "Additional environment variables"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Additional PATH environment variable paths",
+                    "target": "Additional PATH environment variable paths"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reload with new environment variables",
+                    "target": "Reload with new environment variables"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom base path (Git repository path)",
+                    "target": "Custom base path (Git repository path)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Git directory path (Instead of '.git')",
+                    "target": "Custom Git directory path (Instead of '.git')"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable on this device",
+                    "target": "Disable on this device"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show commit authoring information next to each line",
+                    "target": "Show commit authoring information next to each line"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show commit hash",
+                    "target": "Show commit hash"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Author name display",
+                    "target": "Author name display"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Authoring date display",
+                    "target": "Authoring date display"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom authoring date format",
+                    "target": "Custom authoring date format"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Authoring date display timezone",
+                    "target": "Authoring date display timezone"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Oldest age in coloring",
+                    "target": "Oldest age in coloring"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Text color",
+                    "target": "Text color"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore whitespace and newlines in changes",
+                    "target": "Ignore whitespace and newlines in changes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "YYYY-MM-DD HH:mm",
+                    "target": "YYYY-MM-DD HH:mm"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入您的消息，并可选地选择带有添加日期的版本。",
+                    "target": "请输入您的消息，并可选地选择带有添加日期的版本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Not supported files will be opened by default app!",
+                    "target": "Not supported files will be opened by default app!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select branch to checkout",
+                    "target": "Select branch to checkout"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Copy Debug Information",
+                    "target": "Copy Debug Information"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Debugging and logging:\nYou can always see the logs of this and every other plugin by opening the console with",
+                    "target": "Debugging and logging:\nYou can always see the logs of this and every other plugin by opening the console with"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Edit .gitignore",
+                    "target": "Edit .gitignore"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy commit hash",
+                    "target": "Copy commit hash"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Git: Stage",
+                    "target": "Git: Stage"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Git: Unstage",
+                    "target": "Git: Unstage"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Git: Add to .gitignore",
+                    "target": "Git: Add to .gitignore"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in default app",
+                    "target": "Open in default app"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "simple-git deprecation notice: git.silent: logging should be configured using the `debug` library / `DEBUG` environment variable, this will be an error in version 3",
+                    "target": "simple-git deprecation notice: git.silent: logging should be configured using the `debug` library / `DEBUG` environment variable, this will be an error in version 3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "obsidian-git: rev-parse error:",
+                    "target": "obsidian-git: rev-parse error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Git: undefined lineAuthorInfoProvider. Unexpected situation.",
+                    "target": "Git: undefined lineAuthorInfoProvider. Unexpected situation."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Git: Error while loading line authoring feature.",
+                    "target": "Git: Error while loading line authoring feature."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Git: undefined signsProvider. Unexpected situation.",
+                    "target": "Git: undefined signsProvider. Unexpected situation."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Git: Error while loading signs feature.",
+                    "target": "Git: Error while loading signs feature."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Git: View is not defined for editor cache key. Unforeseen situation. id: ",
+                    "target": "Git: View is not defined for editor cache key. Unforeseen situation. id: "
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Authentication failed. Please try with different credentials",
+                    "target": "Authentication failed. Please try with different credentials"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This takes longer: Getting status",
+                    "target": "This takes longer: Getting status"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ObsidianGit: Base path does not exist",
+                    "target": "ObsidianGit: Base path does not exist"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Obsidian must be restarted for the changes to take affect.",
+                    "target": "Obsidian must be restarted for the changes to take affect."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Debug information copied to clipboard. May contain sensitive information!",
+                    "target": "Debug information copied to clipboard. May contain sensitive information!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Successfully deleted repository. Reloading plugin...",
+                    "target": "Successfully deleted repository. Reloading plugin..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No repository found",
+                    "target": "No repository found"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Discarded all changes in tracked files.",
+                    "target": "Discarded all changes in tracked files."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Discarded all files.",
+                    "target": "Discarded all files."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Paused automatic routines.",
+                    "target": "Paused automatic routines."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Resumed automatic routines.",
+                    "target": "Resumed automatic routines."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't find a valid git repository. Please create one via the given command or clone an existing repo.",
+                    "target": "Can't find a valid git repository. Please create one via the given command or clone an existing repo."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Automatic routines are currently paused.",
+                    "target": "Automatic routines are currently paused."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Initialized new repo",
+                    "target": "Initialized new repo"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Aborted clone",
+                    "target": "Aborted clone"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid depth. Aborting clone.",
+                    "target": "Invalid depth. Aborting clone."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cloned new repo.",
+                    "target": "Cloned new repo."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please restart Obsidian",
+                    "target": "Please restart Obsidian"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No upstream branch is set. Please select one.",
+                    "target": "No upstream branch is set. Please select one."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "\"⦚\"",
+                    "target": "\"⦚\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Note added by 'isomorphic-git addNote'\n",
+                    "target": "Note added by 'isomorphic-git addNote'\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Source Control",
+                    "target": "Source Control"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Diff view",
+                    "target": "Diff view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Diff View",
+                    "target": "Diff View"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edit .gitignore",
+                    "target": "Edit .gitignore"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open source control view",
+                    "target": "Open source control view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open history view",
+                    "target": "Open history view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open diff view",
+                    "target": "Open diff view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open file on GitHub",
+                    "target": "Open file on GitHub"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open file history on GitHub",
+                    "target": "Open file history on GitHub"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add file to .gitignore",
+                    "target": "Add file to .gitignore"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Commit-and-sync and then close Obsidian",
+                    "target": "Commit-and-sync and then close Obsidian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Commit-and-sync with specific message",
+                    "target": "Commit-and-sync with specific message"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Commit all changes",
+                    "target": "Commit all changes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Commit all changes with specific message",
+                    "target": "Commit all changes with specific message"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Commit staged",
+                    "target": "Commit staged"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Amend staged",
+                    "target": "Amend staged"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Commit with specific message",
+                    "target": "Commit with specific message"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Commit staged with specific message",
+                    "target": "Commit staged with specific message"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stage current file",
+                    "target": "Stage current file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Unstage current file",
+                    "target": "Unstage current file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set upstream branch",
+                    "target": "Set upstream branch"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CAUTION: Delete repository",
+                    "target": "CAUTION: Delete repository"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Initialize a new repo",
+                    "target": "Initialize a new repo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "List changed files",
+                    "target": "List changed files"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch branch",
+                    "target": "Switch branch"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new branch",
+                    "target": "Create new branch"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete branch",
+                    "target": "Delete branch"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CAUTION: Discard all changes",
+                    "target": "CAUTION: Discard all changes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pause/Resume automatic routines",
+                    "target": "Pause/Resume automatic routines"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Raw command",
+                    "target": "Raw command"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle line author information",
+                    "target": "Toggle line author information"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset hunk",
+                    "target": "Reset hunk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stage hunk",
+                    "target": "Stage hunk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Preview hunk",
+                    "target": "Preview hunk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Go to next hunk",
+                    "target": "Go to next hunk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Go to previous hunk",
+                    "target": "Go to previous hunk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Specify your username",
+                    "target": "Specify your username"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Specify your password/personal access token",
+                    "target": "Specify your password/personal access token"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Do you really want to delete the repository (.git directory)? plugin action cannot be undone.",
+                    "target": "Do you really want to delete the repository (.git directory)? plugin action cannot be undone."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "push origin master",
+                    "target": "push origin master"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Create new branch",
+                    "target": "Create new branch"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Delete branch",
+                    "target": "Delete branch"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "This branch isn't merged into HEAD. Force delete?",
+                    "target": "This branch isn't merged into HEAD. Force delete?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Git is not ready. When all settings are correct you can configure commit-sync, etc.",
+                    "target": "Git is not ready. When all settings are correct you can configure commit-sync, etc."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "CMD (⌘) + OPTION (⌥) + I",
+                    "target": "CMD (⌘) + OPTION (⌥) + I"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "CTRL + SHIFT + I",
+                    "target": "CTRL + SHIFT + I"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️",
+                    "target": "⚠️"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"This browser lacks typed array (Uint8Array) support which is required by `buffer` v5.x. Use `buffer` v4.x if you require old browser support.\")",
+                    "target": "error(\"This browser lacks typed array (Uint8Array) support which is required by `buffer` v5.x. Use `buffer` v4.x if you require old browser support.\")"
+                },
+                {
+                    "source": "error(`Error during ${t}: ${a}`)",
+                    "target": "error(`Error during ${t}: ${a}`)"
+                },
+                {
+                    "source": "Notice(\"Authentication failed. Please try with different credentials\")",
+                    "target": "Notice(\"Authentication failed. Please try with different credentials\")"
+                },
+                {
+                    "source": "Notice(\"Initializing pull\")",
+                    "target": "Notice(\"Initializing pull\")"
+                },
+                {
+                    "source": "Notice(\"Initializing clone\")",
+                    "target": "Notice(\"Initializing clone\")"
+                },
+                {
+                    "source": "Notice(\"Initializing fetch\")",
+                    "target": "Notice(\"Initializing fetch\")"
+                },
+                {
+                    "source": "log(\"Something weird happened:\")",
+                    "target": "log(\"Something weird happened:\")"
+                },
+                {
+                    "source": "Notice(\"ObsidianGit: Base path does not exist\")",
+                    "target": "Notice(\"ObsidianGit: Base path does not exist\")"
+                },
+                {
+                    "source": "log(\"Retry watch for ask pass\")",
+                    "target": "log(\"Retry watch for ask pass\")"
+                },
+                {
+                    "source": "log(\"No tracking branch found. Ignoring pull of main repo and updating submodules only.\")",
+                    "target": "log(\"No tracking branch found. Ignoring pull of main repo and updating submodules only.\")"
+                },
+                {
+                    "source": "log(\"No tracking branch found. Ignoring push of main repo and updating submodules only.\")",
+                    "target": "log(\"No tracking branch found. Ignoring push of main repo and updating submodules only.\")"
+                },
+                {
+                    "source": "log(`Git not found in PATH. Checking standard installation path(${ad}) of Git for Windows.`)",
+                    "target": "log(`Git not found in PATH. Checking standard installation path(${ad}) of Git for Windows.`)"
+                },
+                {
+                    "source": "setTitle(\"Copy commit hash\")",
+                    "target": "setTitle(\"Copy commit hash\")"
+                },
+                {
+                    "source": "setName(\"Split timers for automatic commit and sync\")",
+                    "target": "setName(\"Split timers for automatic commit and sync\")"
+                },
+                {
+                    "source": "setDesc(\"Enable to use one interval for commit and another for sync.\")",
+                    "target": "setDesc(\"Enable to use one interval for commit and another for sync.\")"
+                },
+                {
+                    "source": "setName(`Auto ${i} interval (minutes)`)",
+                    "target": "setName(`Auto ${i} interval (minutes)`)"
+                },
+                {
+                    "source": "setDesc(`${n.settings.differentIntervalCommitAndPush?\"Commit\":\"Commit and sync\"} changes every X minutes. Set to 0 (default) to disable. (See below setting for further configuration!)`)",
+                    "target": "setDesc(`${n.settings.differentIntervalCommitAndPush?\"Commit\":\"Commit and sync\"} changes every X minutes. Set to 0 (default) to disable. (See below setting for further configuration!)`)"
+                },
+                {
+                    "source": "setName(`Auto ${i} after stopping file edits`)",
+                    "target": "setName(`Auto ${i} after stopping file edits`)"
+                },
+                {
+                    "source": "setName(`Auto ${i} after latest commit`)",
+                    "target": "setName(`Auto ${i} after latest commit`)"
+                },
+                {
+                    "source": "setDesc(`如果开启，雷姆会将最后一次自动 ${i} 的时间戳设置为最新提交的时间戳。这样主人在进行手动提交时，自动 ${i} 的频率就会降低哦。`)",
+                    "target": "setDesc(`如果开启，雷姆会将最后一次自动 ${i} 的时间戳设置为最新提交的时间戳。这样主人在进行手动提交时，自动 ${i} 的频率就会降低哦。`)"
+                },
+                {
+                    "source": "setName(\"Auto push interval (minutes)\")",
+                    "target": "setName(\"Auto push interval (minutes)\")"
+                },
+                {
+                    "source": "setDesc(\"每 X 分钟推送一次提交。设置为 0（默认）以禁用。这是雷姆为您管理推送频率的设定哦。\")",
+                    "target": "setDesc(\"每 X 分钟推送一次提交。设置为 0（默认）以禁用。这是雷姆为您管理推送频率的设定哦。\")"
+                },
+                {
+                    "source": "setName(\"Auto pull interval (minutes)\")",
+                    "target": "setName(\"Auto pull interval (minutes)\")"
+                },
+                {
+                    "source": "setDesc(\"每 X 分钟拉取一次变更。设置为 0（默认）以禁用。雷姆会按照这个设定为您同步代码呢。\")",
+                    "target": "setDesc(\"每 X 分钟拉取一次变更。设置为 0（默认）以禁用。雷姆会按照这个设定为您同步代码呢。\")"
+                },
+                {
+                    "source": "setName(`Auto ${i} only staged files`)",
+                    "target": "setName(`Auto ${i} only staged files`)"
+                },
+                {
+                    "source": "setDesc(`如果开启，雷姆仅会提交 ${i} 上已暂存的文件。如果关闭，则会提交所有已更改的文件。请主人根据需要进行选择。`)",
+                    "target": "setDesc(`如果开启，雷姆仅会提交 ${i} 上已暂存的文件。如果关闭，则会提交所有已更改的文件。请主人根据需要进行选择。`)"
+                },
+                {
+                    "source": "setName(`Specify custom commit message on auto ${i}`)",
+                    "target": "setName(`Specify custom commit message on auto ${i}`)"
+                },
+                {
+                    "source": "setDesc(\"主人将会收到一个弹窗来指定您的提交消息哦。\")",
+                    "target": "setDesc(\"主人将会收到一个弹窗来指定您的提交消息哦。\")"
+                },
+                {
+                    "source": "setName(`Commit message on auto ${i}`)",
+                    "target": "setName(`Commit message on auto ${i}`)"
+                },
+                {
+                    "source": "setDesc(\"可用的占位符有：{{date}}（见下文），{{hostname}}（见下文），{{numFiles}}（提交中更改的文件数）和 {{files}}（提交消息中的已更改文件）。雷姆提醒主人可以灵活使用它们呢。\")",
+                    "target": "setDesc(\"可用的占位符有：{{date}}（见下文），{{hostname}}（见下文），{{numFiles}}（提交中更改的文件数）和 {{files}}（提交消息中的已更改文件）。雷姆提醒主人可以灵活使用它们呢。\")"
+                },
+                {
+                    "source": "setName(\"Commit message\")",
+                    "target": "setName(\"Commit message\")"
+                },
+                {
+                    "source": "setName(\"Commit message on manual commit\")",
+                    "target": "setName(\"Commit message on manual commit\")"
+                },
+                {
+                    "source": "setName(\"Commit message script\")",
+                    "target": "setName(\"Commit message script\")"
+                },
+                {
+                    "source": "setDesc(\"这是一个使用 'sh -c' 运行的脚本，用于生成提交消息。主人也可以通过 AI 工具来生成提交消息哦。可用的占位符是：{{hostname}}, {{date}}。\")",
+                    "target": "setDesc(\"这是一个使用 'sh -c' 运行的脚本，用于生成提交消息。主人也可以通过 AI 工具来生成提交消息哦。可用的占位符是：{{hostname}}, {{date}}。\")"
+                },
+                {
+                    "source": "setName(\"{{date}} placeholder format\")",
+                    "target": "setName(\"{{date}} placeholder format\")"
+                },
+                {
+                    "source": "setDesc(\"Specify custom hostname for every device.\")",
+                    "target": "setDesc(\"Specify custom hostname for every device.\")"
+                },
+                {
+                    "source": "setName(\"Preview commit message\")",
+                    "target": "setName(\"Preview commit message\")"
+                },
+                {
+                    "source": "setName(\"List filenames affected by commit in the commit body\")",
+                    "target": "setName(\"List filenames affected by commit in the commit body\")"
+                },
+                {
+                    "source": "setName(\"Merge strategy\")",
+                    "target": "setName(\"Merge strategy\")"
+                },
+                {
+                    "source": "setName(\"Merge strategy on conflicts\")",
+                    "target": "setName(\"Merge strategy on conflicts\")"
+                },
+                {
+                    "source": "setName(\"Pull on startup\")",
+                    "target": "setName(\"Pull on startup\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically pull commits when Obsidian starts.\")",
+                    "target": "setDesc(\"Automatically pull commits when Obsidian starts.\")"
+                },
+                {
+                    "source": "setName(\"Push on commit-and-sync\")",
+                    "target": "setName(\"Push on commit-and-sync\")"
+                },
+                {
+                    "source": "setDesc(`大多数情况下，主人希望在提交后进行推送。关闭此选项会将“提交并同步”操作变为仅提交 ${n.settings.pullBeforePush?\"和拉取 \":\"\"}。不过雷姆还是会称它为提交并同步哦。`)",
+                    "target": "setDesc(`大多数情况下，主人希望在提交后进行推送。关闭此选项会将“提交并同步”操作变为仅提交 ${n.settings.pullBeforePush?\"和拉取 \":\"\"}。不过雷姆还是会称它为提交并同步哦。`)"
+                },
+                {
+                    "source": "setName(\"Pull on commit-and-sync\")",
+                    "target": "setName(\"Pull on commit-and-sync\")"
+                },
+                {
+                    "source": "setDesc(`在执行“提交并同步”时，雷姆也会拉取提交。关闭此选项会将“提交并同步”操作变为仅提交 ${n.settings.disablePush?\"\":\"和推送 \"}。`)",
+                    "target": "setDesc(`在执行“提交并同步”时，雷姆也会拉取提交。关闭此选项会将“提交并同步”操作变为仅提交 ${n.settings.disablePush?\"\":\"和推送 \"}。`)"
+                },
+                {
+                    "source": "setDesc(\"代码块是编辑器中分组行更改的部分，雷姆会帮主人清晰地管理它们。\")",
+                    "target": "setDesc(\"代码块是编辑器中分组行更改的部分，雷姆会帮主人清晰地管理它们。\")"
+                },
+                {
+                    "source": "setDesc(\"这允许主人通过彩色标记在编辑器中直接查看更改，并且可以暂存、重置或预览单个代码块。雷姆觉得这样很方便呢。\")",
+                    "target": "setDesc(\"这允许主人通过彩色标记在编辑器中直接查看更改，并且可以暂存、重置或预览单个代码块。雷姆觉得这样很方便呢。\")"
+                },
+                {
+                    "source": "setName(\"Hunk commands\")",
+                    "target": "setName(\"Hunk commands\")"
+                },
+                {
+                    "source": "setDesc(\"添加了命令来暂存或重置单个 Git diff 代码块，并通过“转到下一个/上一个代码块”命令在它们之间导航。雷姆会协助主人高效地处理这些变更哦。\")",
+                    "target": "setDesc(\"添加了命令来暂存或重置单个 Git diff 代码块，并通过“转到下一个/上一个代码块”命令在它们之间导航。雷姆会协助主人高效地处理这些变更哦。\")"
+                },
+                {
+                    "source": "setName(\"Status bar with summary of line changes\")",
+                    "target": "setName(\"Status bar with summary of line changes\")"
+                },
+                {
+                    "source": "setName(\"Line author information\")",
+                    "target": "setName(\"Line author information\")"
+                },
+                {
+                    "source": "setName(\"History view\")",
+                    "target": "setName(\"History view\")"
+                },
+                {
+                    "source": "setName(\"Show Author\")",
+                    "target": "setName(\"Show Author\")"
+                },
+                {
+                    "source": "setDesc(\"在历史视图中显示提交的作者。这样主人就能清楚地知道是谁的贡献了呢。\")",
+                    "target": "setDesc(\"在历史视图中显示提交的作者。这样主人就能清楚地知道是谁的贡献了呢。\")"
+                },
+                {
+                    "source": "setName(\"Show Date\")",
+                    "target": "setName(\"Show Date\")"
+                },
+                {
+                    "source": "setDesc(\"在历史视图中显示提交的日期。雷姆会使用 {{date}} 占位符格式来显示日期，让主人一目了然。\")",
+                    "target": "setDesc(\"在历史视图中显示提交的日期。雷姆会使用 {{date}} 占位符格式来显示日期，让主人一目了然。\")"
+                },
+                {
+                    "source": "setName(\"Source control view\")",
+                    "target": "setName(\"Source control view\")"
+                },
+                {
+                    "source": "setName(\"Automatically refresh source control view on file changes\")",
+                    "target": "setName(\"Automatically refresh source control view on file changes\")"
+                },
+                {
+                    "source": "setDesc(\"在较慢的机器上，这可能会导致延迟。如果主人遇到了这种情况，只需禁用此选项就好。雷姆会调整到最适合您电脑的状态。\")",
+                    "target": "setDesc(\"在较慢的机器上，这可能会导致延迟。如果主人遇到了这种情况，只需禁用此选项就好。雷姆会调整到最适合您电脑的状态。\")"
+                },
+                {
+                    "source": "setName(\"Source control view refresh interval\")",
+                    "target": "setName(\"Source control view refresh interval\")"
+                },
+                {
+                    "source": "setDesc(\"文件更改后等待多少毫秒再刷新源代码管理视图。雷姆会耐心等待这个时间，避免不必要的刷新打扰到主人。\")",
+                    "target": "setDesc(\"文件更改后等待多少毫秒再刷新源代码管理视图。雷姆会耐心等待这个时间，避免不必要的刷新打扰到主人。\")"
+                },
+                {
+                    "source": "setName(\"Diff view style\")",
+                    "target": "setName(\"Diff view style\")"
+                },
+                {
+                    "source": "setDesc(\"Set the style for the diff view. Note that the actual diff in \\\"Split\\\" mode is not generated by Git, but the editor itself instead so it may differ from the diff generated by Git. One advantage of this is that you can edit the text in that view.\")",
+                    "target": "setDesc(\"Set the style for the diff view. Note that the actual diff in \\\"Split\\\" mode is not generated by Git, but the editor itself instead so it may differ from the diff generated by Git. One advantage of this is that you can edit the text in that view.\")"
+                },
+                {
+                    "source": "setName(\"Disable informative notifications\")",
+                    "target": "setName(\"Disable informative notifications\")"
+                },
+                {
+                    "source": "setDesc(\"禁用 Git 操作的信息通知以尽量减少干扰（更新信息请参考状态栏）。雷姆会保持安静，只在状态栏为您提供必要的信息哦。\")",
+                    "target": "setDesc(\"禁用 Git 操作的信息通知以尽量减少干扰（更新信息请参考状态栏）。雷姆会保持安静，只在状态栏为您提供必要的信息哦。\")"
+                },
+                {
+                    "source": "setName(\"Disable error notifications\")",
+                    "target": "setName(\"Disable error notifications\")"
+                },
+                {
+                    "source": "setDesc(\"禁用所有类型的错误通知以减少干扰（请参考状态栏获取更新信息）。雷姆会默默处理问题，尽量不打扰到主人。\")",
+                    "target": "setDesc(\"禁用所有类型的错误通知以减少干扰（请参考状态栏获取更新信息）。雷姆会默默处理问题，尽量不打扰到主人。\")"
+                },
+                {
+                    "source": "setName(\"Hide notifications for no changes\")",
+                    "target": "setName(\"Hide notifications for no changes\")"
+                },
+                {
+                    "source": "setDesc(\"当没有需要提交或推送的更改时，雷姆就不会显示通知了。这样可以让主人更专注于手头的工作呢。\")",
+                    "target": "setDesc(\"当没有需要提交或推送的更改时，雷姆就不会显示通知了。这样可以让主人更专注于手头的工作呢。\")"
+                },
+                {
+                    "source": "setName(\"Show status bar\")",
+                    "target": "setName(\"Show status bar\")"
+                },
+                {
+                    "source": "setDesc(\"主人，为了让更改生效，雷姆认为必须重启 Obsidian 才行呢。\")",
+                    "target": "setDesc(\"主人，为了让更改生效，雷姆认为必须重启 Obsidian 才行呢。\")"
+                },
+                {
+                    "source": "setName(\"File menu integration\")",
+                    "target": "setName(\"File menu integration\")"
+                },
+                {
+                    "source": "setDesc(\"Add \\\"Stage\\\", \\\"Unstage\\\" and \\\"Add to .gitignore\\\" actions to the file menu.\")",
+                    "target": "setDesc(\"Add \\\"Stage\\\", \\\"Unstage\\\" and \\\"Add to .gitignore\\\" actions to the file menu.\")"
+                },
+                {
+                    "source": "setName(\"Show branch status bar\")",
+                    "target": "setName(\"Show branch status bar\")"
+                },
+                {
+                    "source": "setName(\"Show the count of modified files in the status bar\")",
+                    "target": "setName(\"Show the count of modified files in the status bar\")"
+                },
+                {
+                    "source": "setName(\"Authentication/commit author\")",
+                    "target": "setName(\"Authentication/commit author\")"
+                },
+                {
+                    "source": "setName(\"Commit author\")",
+                    "target": "setName(\"Commit author\")"
+                },
+                {
+                    "source": "setName(\"Username on your git server. E.g. your username on GitHub\")",
+                    "target": "setName(\"Username on your git server. E.g. your username on GitHub\")"
+                },
+                {
+                    "source": "setName(\"Password/Personal access token\")",
+                    "target": "setName(\"Password/Personal access token\")"
+                },
+                {
+                    "source": "setDesc(\"昴君，请输入您的密码。输入后，雷姆也无法再次看到它了呢。\")",
+                    "target": "setDesc(\"昴君，请输入您的密码。输入后，雷姆也无法再次看到它了呢。\")"
+                },
+                {
+                    "source": "setName(\"Author name for commit\")",
+                    "target": "setName(\"Author name for commit\")"
+                },
+                {
+                    "source": "setDesc(\"主人，这些设置通常无需更改，但雷姆觉得在特殊配置时可能还是需要调整一下呢。\")",
+                    "target": "setDesc(\"主人，这些设置通常无需更改，但雷姆觉得在特殊配置时可能还是需要调整一下呢。\")"
+                },
+                {
+                    "source": "setName(\"Update submodules\")",
+                    "target": "setName(\"Update submodules\")"
+                },
+                {
+                    "source": "setDesc(\"\\\"Commit-and-sync\\\" and \\\"pull\\\" takes care of submodules. Missing features: Conflicted files, count of pulled/pushed/committed files. Tracking branch needs to be set for each submodule.\")",
+                    "target": "setDesc(\"\\\"Commit-and-sync\\\" and \\\"pull\\\" takes care of submodules. Missing features: Conflicted files, count of pulled/pushed/committed files. Tracking branch needs to be set for each submodule.\")"
+                },
+                {
+                    "source": "setName(\"Submodule recurse checkout/switch\")",
+                    "target": "setName(\"Submodule recurse checkout/switch\")"
+                },
+                {
+                    "source": "setDesc(\"主人，每当在根仓库上执行检出操作时，雷姆会递归地对子模块执行检出操作哦（前提是分支存在的话）。\")",
+                    "target": "setDesc(\"主人，每当在根仓库上执行检出操作时，雷姆会递归地对子模块执行检出操作哦（前提是分支存在的话）。\")"
+                },
+                {
+                    "source": "setName(\"Custom Git binary path\")",
+                    "target": "setName(\"Custom Git binary path\")"
+                },
+                {
+                    "source": "setDesc(\"请指定 Git 二进制文件/可执行文件的路径。Git 通常应该已经在您的 PATH 环境变量中了。雷姆觉得，这通常只在您安装了自定义版本的 Git 时才需要设置呢。\")",
+                    "target": "setDesc(\"请指定 Git 二进制文件/可执行文件的路径。Git 通常应该已经在您的 PATH 环境变量中了。雷姆觉得，这通常只在您安装了自定义版本的 Git 时才需要设置呢。\")"
+                },
+                {
+                    "source": "setName(\"Additional environment variables\")",
+                    "target": "setName(\"Additional environment variables\")"
+                },
+                {
+                    "source": "setDesc(\"请为每个新的环境变量使用单独的一行，格式为 KEY=VALUE 。\")",
+                    "target": "setDesc(\"请为每个新的环境变量使用单独的一行，格式为 KEY=VALUE 。\")"
+                },
+                {
+                    "source": "setName(\"Additional PATH environment variable paths\")",
+                    "target": "setName(\"Additional PATH environment variable paths\")"
+                },
+                {
+                    "source": "setDesc(\"请为每个路径使用单独的一行。\")",
+                    "target": "setDesc(\"请为每个路径使用单独的一行。\")"
+                },
+                {
+                    "source": "setName(\"Reload with new environment variables\")",
+                    "target": "setName(\"Reload with new environment variables\")"
+                },
+                {
+                    "source": "setDesc(\"移除之前添加的环境变量需要重启 Obsidian 才能生效，请主人注意哦。\")",
+                    "target": "setDesc(\"移除之前添加的环境变量需要重启 Obsidian 才能生效，请主人注意哦。\")"
+                },
+                {
+                    "source": "setName(\"Custom base path (Git repository path)\")",
+                    "target": "setName(\"Custom base path (Git repository path)\")"
+                },
+                {
+                    "source": "setDesc(`\n            Sets the relative path to the vault from which the Git binary should be executed.\n             Mostly used to set the path to the Git repository, which is only required if the Git repository is below the vault root directory. Use \"\\\\\" instead of \"/\" on Windows.\n            `)",
+                    "target": "setDesc(`\n            Sets the relative path to the vault from which the Git binary should be executed.\n             Mostly used to set the path to the Git repository, which is only required if the Git repository is below the vault root directory. Use \"\\\\\" instead of \"/\" on Windows.\n            `)"
+                },
+                {
+                    "source": "setName(\"Custom Git directory path (Instead of '.git')\")",
+                    "target": "setName(\"Custom Git directory path (Instead of '.git')\")"
+                },
+                {
+                    "source": "setDesc(\"Corresponds to the GIT_DIR environment variable. Requires restart of Obsidian to take effect. Use \\\"\\\\\\\" instead of \\\"/\\\" on Windows.\")",
+                    "target": "setDesc(\"Corresponds to the GIT_DIR environment variable. Requires restart of Obsidian to take effect. Use \\\"\\\\\\\" instead of \\\"/\\\" on Windows.\")"
+                },
+                {
+                    "source": "setName(\"Disable on this device\")",
+                    "target": "setName(\"Disable on this device\")"
+                },
+                {
+                    "source": "setDesc(\"在此设备上禁用此插件。这个设置不会被同步。\")",
+                    "target": "setDesc(\"在此设备上禁用此插件。这个设置不会被同步。\")"
+                },
+                {
+                    "source": "Notice(\"Obsidian must be restarted for the changes to take affect.\")",
+                    "target": "Notice(\"Obsidian must be restarted for the changes to take affect.\")"
+                },
+                {
+                    "source": "setDesc(\"如果您喜欢这个插件，雷姆恳请您考虑捐赠以支持持续的开发工作。\")",
+                    "target": "setDesc(\"如果您喜欢这个插件，雷姆恳请您考虑捐赠以支持持续的开发工作。\")"
+                },
+                {
+                    "source": "setText(\"Copy Debug Information\")",
+                    "target": "setText(\"Copy Debug Information\")"
+                },
+                {
+                    "source": "Notice(\"Debug information copied to clipboard. May contain sensitive information!\")",
+                    "target": "Notice(\"Debug information copied to clipboard. May contain sensitive information!\")"
+                },
+                {
+                    "source": "setText(`Debugging and logging:\nYou can always see the logs of this and every other plugin by opening the console with`)",
+                    "target": "setText(`Debugging and logging:\nYou can always see the logs of this and every other plugin by opening the console with`)"
+                },
+                {
+                    "source": "setName(\"Show commit authoring information next to each line\")",
+                    "target": "setName(\"Show commit authoring information next to each line\")"
+                },
+                {
+                    "source": "setDesc(\"目前仅在桌面端可用。\")",
+                    "target": "setDesc(\"目前仅在桌面端可用。\")"
+                },
+                {
+                    "source": "setName(\"Show commit hash\")",
+                    "target": "setName(\"Show commit hash\")"
+                },
+                {
+                    "source": "setName(\"Author name display\")",
+                    "target": "setName(\"Author name display\")"
+                },
+                {
+                    "source": "setDesc(\"是否以及如何显示作者信息\")",
+                    "target": "setDesc(\"是否以及如何显示作者信息\")"
+                },
+                {
+                    "source": "setName(\"Authoring date display\")",
+                    "target": "setName(\"Authoring date display\")"
+                },
+                {
+                    "source": "setDesc(\"是否以及如何显示该行的创作日期和时间\")",
+                    "target": "setDesc(\"是否以及如何显示该行的创作日期和时间\")"
+                },
+                {
+                    "source": "setName(\"Custom authoring date format\")",
+                    "target": "setName(\"Custom authoring date format\")"
+                },
+                {
+                    "source": "setPlaceholder(\"YYYY-MM-DD HH:mm\")",
+                    "target": "setPlaceholder(\"YYYY-MM-DD HH:mm\")"
+                },
+                {
+                    "source": "setName(\"Authoring date display timezone\")",
+                    "target": "setName(\"Authoring date display timezone\")"
+                },
+                {
+                    "source": "setName(\"Oldest age in coloring\")",
+                    "target": "setName(\"Oldest age in coloring\")"
+                },
+                {
+                    "source": "setName(\"Text color\")",
+                    "target": "setName(\"Text color\")"
+                },
+                {
+                    "source": "setName(\"Ignore whitespace and newlines in changes\")",
+                    "target": "setName(\"Ignore whitespace and newlines in changes\")"
+                },
+                {
+                    "source": "setPlaceholder(\"请输入您的消息，并可选地选择带有添加日期的版本。\")",
+                    "target": "setPlaceholder(\"请输入您的消息，并可选地选择带有添加日期的版本。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Not supported files will be opened by default app!\")",
+                    "target": "setPlaceholder(\"Not supported files will be opened by default app!\")"
+                },
+                {
+                    "source": "setText(\"Edit .gitignore\")",
+                    "target": "setText(\"Edit .gitignore\")"
+                },
+                {
+                    "source": "error(`Invalid hunk with untracked=${s} hunk=\"${r.head}\"`)",
+                    "target": "error(`Invalid hunk with untracked=${s} hunk=\"${r.head}\"`)"
+                },
+                {
+                    "source": "error(\"Failed to parse lines, starting in 0!\")",
+                    "target": "error(\"Failed to parse lines, starting in 0!\")"
+                },
+                {
+                    "source": "Notice(\"Successfully deleted repository. Reloading plugin...\")",
+                    "target": "Notice(\"Successfully deleted repository. Reloading plugin...\")"
+                },
+                {
+                    "source": "Notice(\"No repository found\")",
+                    "target": "Notice(\"No repository found\")"
+                },
+                {
+                    "source": "Notice(\"Discarded all changes in tracked files.\")",
+                    "target": "Notice(\"Discarded all changes in tracked files.\")"
+                },
+                {
+                    "source": "Notice(\"Discarded all files.\")",
+                    "target": "Notice(\"Discarded all files.\")"
+                },
+                {
+                    "source": "Notice(\"Paused automatic routines.\")",
+                    "target": "Notice(\"Paused automatic routines.\")"
+                },
+                {
+                    "source": "Notice(\"Resumed automatic routines.\")",
+                    "target": "Notice(\"Resumed automatic routines.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Select branch to checkout\")",
+                    "target": "setPlaceholder(\"Select branch to checkout\")"
+                },
+                {
+                    "source": "setText(`${this.discardCount==0?\"Delete\":\"Discard\"} ${a}`)",
+                    "target": "setText(`${this.discardCount==0?\"Delete\":\"Discard\"} ${a}`)"
+                },
+                {
+                    "source": "setText(`Are you sure you want to DELETE the ${Lc(this.deleteCount,\"untracked file\")}? They are deleted according to your Obsidian trash settting.`)",
+                    "target": "setText(`Are you sure you want to DELETE the ${Lc(this.deleteCount,\"untracked file\")}? They are deleted according to your Obsidian trash settting.`)"
+                },
+                {
+                    "source": "setText(`Are you sure you want to discard ALL changes in ${Lc(this.discardCount,\"tracked file\")}?`)",
+                    "target": "setText(`Are you sure you want to discard ALL changes in ${Lc(this.discardCount,\"tracked file\")}?`)"
+                },
+                {
+                    "source": "setTitle(\"Git: Stage\")",
+                    "target": "setTitle(\"Git: Stage\")"
+                },
+                {
+                    "source": "setTitle(\"Git: Unstage\")",
+                    "target": "setTitle(\"Git: Unstage\")"
+                },
+                {
+                    "source": "setTitle(\"Git: Add to .gitignore\")",
+                    "target": "setTitle(\"Git: Add to .gitignore\")"
+                },
+                {
+                    "source": "setTitle(\"Open in default app\")",
+                    "target": "setTitle(\"Open in default app\")"
+                },
+                {
+                    "source": "log(\"unloading \"+this.manifest.name+\" plugin\")",
+                    "target": "log(\"unloading \"+this.manifest.name+\" plugin\")"
+                },
+                {
+                    "source": "Notice(\"Automatic routines are currently paused.\")",
+                    "target": "Notice(\"Automatic routines are currently paused.\")"
+                },
+                {
+                    "source": "Notice(\"Aborted clone\")",
+                    "target": "Notice(\"Aborted clone\")"
+                },
+                {
+                    "source": "Notice(\"Invalid depth. Aborting clone.\")",
+                    "target": "Notice(\"Invalid depth. Aborting clone.\")"
+                },
+                {
+                    "source": "Notice(`Cloning new repo into \"${a}\"`)",
+                    "target": "Notice(`Cloning new repo into \"${a}\"`)"
+                },
+                {
+                    "source": "Notice(\"Cloned new repo.\")",
+                    "target": "Notice(\"Cloned new repo.\")"
+                },
+                {
+                    "source": "Notice(\"Please restart Obsidian\")",
+                    "target": "Notice(\"Please restart Obsidian\")"
+                },
+                {
+                    "source": "Notice(\"No upstream branch is set. Please select one.\")",
+                    "target": "Notice(\"No upstream branch is set. Please select one.\")"
+                },
+                {
+                    "source": "log(\"Encountered network error, but already in offline mode\")",
+                    "target": "log(\"Encountered network error, but already in offline mode\")"
+                },
+                {
+                    "source": "name=`${this.name} [${t}]`",
+                    "target": "name=`${this.name} [${t}]`"
+                },
+                {
+                    "source": "description:`${Ie} '${Ka(me)}' of ${T}`",
+                    "target": "description:`${Ie} '${Ka(me)}' of ${T}`"
+                },
+                {
+                    "source": "name:\"Source Control\"",
+                    "target": "name:\"Source Control\""
+                },
+                {
+                    "source": "name:\"Diff view\"",
+                    "target": "name:\"Diff view\""
+                },
+                {
+                    "source": "name:\"Diff View\"",
+                    "target": "name:\"Diff View\""
+                },
+                {
+                    "source": "t: \"+e),r instanceof _a.TFile)return this.maybeLog(\"",
+                    "target": "t: \"+e),r instanceof _a.TFile)return this.maybeLog(\""
+                },
+                {
+                    "source": "text:\"Git is not ready. When all settings are correct you can configure commit-sync, etc.\"",
+                    "target": "text:\"Git is not ready. When all settings are correct you can configure commit-sync, etc.\""
+                },
+                {
+                    "source": "t:\"Other sync service (Only updates the HEAD without touching the working directory)\"",
+                    "target": "t:\"Other sync service (Only updates the HEAD without touching the working directory)\""
+                },
+                {
+                    "source": "t='Buy Me a Coffee at ko-fi.com'",
+                    "target": "t='Buy Me a Coffee at ko-fi.com'"
+                },
+                {
+                    "source": "text:\"CMD (⌘) + OPTION (⌥) + I\"",
+                    "target": "text:\"CMD (⌘) + OPTION (⌥) + I\""
+                },
+                {
+                    "source": "text:\"CTRL + SHIFT + I\"",
+                    "target": "text:\"CTRL + SHIFT + I\""
+                },
+                {
+                    "source": "innerText=`Color for ${i} commits`",
+                    "target": "innerText=`Color for ${i} commits`"
+                },
+                {
+                    "source": "t:\"auto !important\"",
+                    "target": "t:\"auto !important\""
+                },
+                {
+                    "source": "name:\"Edit .gitignore\"",
+                    "target": "name:\"Edit .gitignore\""
+                },
+                {
+                    "source": "name:\"Open source control view\"",
+                    "target": "name:\"Open source control view\""
+                },
+                {
+                    "source": "name:\"Open history view\"",
+                    "target": "name:\"Open history view\""
+                },
+                {
+                    "source": "name:\"Open diff view\"",
+                    "target": "name:\"Open diff view\""
+                },
+                {
+                    "source": "name:\"Open file on GitHub\"",
+                    "target": "name:\"Open file on GitHub\""
+                },
+                {
+                    "source": "name:\"Open file history on GitHub\"",
+                    "target": "name:\"Open file history on GitHub\""
+                },
+                {
+                    "source": "name:\"Add file to .gitignore\"",
+                    "target": "name:\"Add file to .gitignore\""
+                },
+                {
+                    "source": "name:\"Commit-and-sync and then close Obsidian\"",
+                    "target": "name:\"Commit-and-sync and then close Obsidian\""
+                },
+                {
+                    "source": "name:\"Commit-and-sync with specific message\"",
+                    "target": "name:\"Commit-and-sync with specific message\""
+                },
+                {
+                    "source": "name:\"Commit all changes\"",
+                    "target": "name:\"Commit all changes\""
+                },
+                {
+                    "source": "name:\"Commit all changes with specific message\"",
+                    "target": "name:\"Commit all changes with specific message\""
+                },
+                {
+                    "source": "name:\"Commit staged\"",
+                    "target": "name:\"Commit staged\""
+                },
+                {
+                    "source": "name:\"Amend staged\"",
+                    "target": "name:\"Amend staged\""
+                },
+                {
+                    "source": "name:\"Commit with specific message\"",
+                    "target": "name:\"Commit with specific message\""
+                },
+                {
+                    "source": "name:\"Commit staged with specific message\"",
+                    "target": "name:\"Commit staged with specific message\""
+                },
+                {
+                    "source": "name:\"Stage current file\"",
+                    "target": "name:\"Stage current file\""
+                },
+                {
+                    "source": "name:\"Unstage current file\"",
+                    "target": "name:\"Unstage current file\""
+                },
+                {
+                    "source": "name:\"Set upstream branch\"",
+                    "target": "name:\"Set upstream branch\""
+                },
+                {
+                    "source": "name:\"CAUTION: Delete repository\"",
+                    "target": "name:\"CAUTION: Delete repository\""
+                },
+                {
+                    "source": "name:\"Initialize a new repo\"",
+                    "target": "name:\"Initialize a new repo\""
+                },
+                {
+                    "source": "name:\"List changed files\"",
+                    "target": "name:\"List changed files\""
+                },
+                {
+                    "source": "name:\"Switch branch\"",
+                    "target": "name:\"Switch branch\""
+                },
+                {
+                    "source": "name:\"Create new branch\"",
+                    "target": "name:\"Create new branch\""
+                },
+                {
+                    "source": "name:\"Delete branch\"",
+                    "target": "name:\"Delete branch\""
+                },
+                {
+                    "source": "name:\"CAUTION: Discard all changes\"",
+                    "target": "name:\"CAUTION: Discard all changes\""
+                },
+                {
+                    "source": "name:\"Pause/Resume automatic routines\"",
+                    "target": "name:\"Pause/Resume automatic routines\""
+                },
+                {
+                    "source": "name:\"Raw command\"",
+                    "target": "name:\"Raw command\""
+                },
+                {
+                    "source": "name:\"Toggle line author information\"",
+                    "target": "name:\"Toggle line author information\""
+                },
+                {
+                    "source": "name:\"Reset hunk\"",
+                    "target": "name:\"Reset hunk\""
+                },
+                {
+                    "source": "name:\"Stage hunk\"",
+                    "target": "name:\"Stage hunk\""
+                },
+                {
+                    "source": "name:\"Preview hunk\"",
+                    "target": "name:\"Preview hunk\""
+                },
+                {
+                    "source": "name:\"Go to next hunk\"",
+                    "target": "name:\"Go to next hunk\""
+                },
+                {
+                    "source": "name:\"Go to previous hunk\"",
+                    "target": "name:\"Go to previous hunk\""
+                },
+                {
+                    "source": "text:\"⚠️\"",
+                    "target": "text:\"⚠️\""
+                },
+                {
+                    "source": "text:\"File not found: \"",
+                    "target": "text:\"File not found: \""
+                },
+                {
+                    "source": "name=\"Svelte error\"",
+                    "target": "name=\"Svelte error\""
+                },
+                {
+                    "source": "text:`${this.discardCount>0?\"Discard\":\"Delete\"} all ${Lc(r,\"file\")}`",
+                    "target": "text:`${this.discardCount>0?\"Discard\":\"Delete\"} all ${Lc(r,\"file\")}`"
+                },
+                {
+                    "source": "text:`Discard all ${Lc(this.discardCount,\"tracked file\")}`",
+                    "target": "text:`Discard all ${Lc(this.discardCount,\"tracked file\")}`"
+                },
+                {
+                    "source": "text:`+${i} `",
+                    "target": "text:`+${i} `"
+                },
+                {
+                    "source": "text:`~${a} `",
+                    "target": "text:`~${a} `"
+                }
+            ]
+        }
+    }
+}
