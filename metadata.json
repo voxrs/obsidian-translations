@@ -39,19 +39,6 @@
     "updated_at": "2026-03-13T14:06:01.484Z"
   },
   {
-    "id": "XC1AeygeZZl2hgjSkB6t_8tJ8mV6xpcq",
-    "plugin": "obsidian-admonition",
-    "type": "plugin",
-    "language": "zh-cn",
-    "version": "1.0.0",
-    "supported_versions": "10.3.2",
-    "title": "Admonition",
-    "description": "Admonition Localization & Tweaks",
-    "hash": "4ba9d20c4ba9d20c4ba9d20c4ba9d20c",
-    "created_at": "2026-03-13T14:06:02.878Z",
-    "updated_at": "2026-03-13T14:06:02.878Z"
-  },
-  {
     "id": "eQ43zcNR81ar43KCmustefyo4-0LQM2J",
     "plugin": "homepage",
     "type": "plugin",
