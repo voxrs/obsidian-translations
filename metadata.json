@@ -1,18 +1,5 @@
 [
   {
-    "id": "8OMQdE-U1ae0xQk2nfd-_KE_pnJnoDtj",
-    "plugin": "Minimal",
-    "type": "theme",
-    "language": "zh-cn",
-    "version": "1.0.0",
-    "supported_versions": "8.1.6",
-    "title": "Minimal",
-    "description": "Minimal Localization & Tweaks 哦我额",
-    "hash": "7f9021de7f9021de7f9021de7f9021de",
-    "created_at": "2026-03-13T14:33:25.949Z",
-    "updated_at": "2026-03-13T14:33:25.949Z"
-  },
-  {
     "id": "XC1AeygeZZl2hgjSkB6t_8tJ8mV6xpcq",
     "plugin": "obsidian-admonition",
     "type": "plugin",
