@@ -1,18 +1,5 @@
 [
   {
-    "id": "YP9GZuz113OnsMb5BYaftesQd9IAb51Y",
-    "plugin": "obsidian42-brat",
-    "type": "plugin",
-    "language": "zh-cn",
-    "version": "1.0.0",
-    "supported_versions": "1.0.6",
-    "title": "BRAT",
-    "description": "BRAT Localization & Tweaks",
-    "hash": "026b9d50026b9d50026b9d50026b9d50",
-    "created_at": "2026-03-13T14:33:25.953Z",
-    "updated_at": "2026-03-13T14:33:25.953Z"
-  },
-  {
     "id": "5jTcPoYtiSy71CrHcLoxKBW1RXPUogKv",
     "plugin": "obsidian-excalidraw-plugin",
     "type": "plugin",
