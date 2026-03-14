@@ -1,18 +1,5 @@
 [
   {
-    "id": "wuVg8RMRzkz3pulwuFhaeYqtDXI5I7mM",
-    "plugin": "calendar",
-    "type": "plugin",
-    "language": "zh-cn",
-    "version": "1.0.0",
-    "supported_versions": "1.5.13",
-    "title": "Calendar",
-    "description": "Calendar Localization & Tweaks",
-    "hash": "220cfd00220cfd00220cfd00220cfd00",
-    "created_at": "2026-03-13T14:33:25.945Z",
-    "updated_at": "2026-03-13T14:33:25.945Z"
-  },
-  {
     "id": "F1ky0dz_O8UcSiXipZwLP8qw-Ic9StA3",
     "plugin": "copilot",
     "type": "plugin",
