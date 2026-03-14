@@ -1,18 +1,5 @@
 [
   {
-    "id": "2i26TEctC38qoI4dw0rc-YKvBzjLdKNr",
-    "plugin": "better-plugins-manager",
-    "type": "plugin",
-    "language": "zh-cn",
-    "version": "1.0.0",
-    "supported_versions": "0.1.9",
-    "title": "Better Plugins Manager",
-    "description": "Better Plugins Manager Localization & Tweaks",
-    "hash": "1b5a68b11b5a68b11b5a68b11b5a68b1",
-    "created_at": "2026-03-13T14:33:25.953Z",
-    "updated_at": "2026-03-13T14:33:25.953Z"
-  },
-  {
     "id": "1-bOys6Wmajg3fWKOlcifC1UdBsTOgvi",
     "plugin": "table-editor-obsidian",
     "type": "plugin",
